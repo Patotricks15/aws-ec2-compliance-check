@@ -1,0 +1,16 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+.terraform.lock.hcl
+crash.log
+
+# Lambda build artifacts
+.build/
+
+# Diagram generation
+.diagram-venv/
+
+# Local env
+.env
